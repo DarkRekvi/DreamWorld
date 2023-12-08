@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=VT323&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+html {
+  height: 100vh;
+  width: 100vw;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+body{
+  width: 100vw;
+  height:100vh;
+  margin:0;
+  padding:0;
+}
+
+
+.waves{
+  overflow:hidden;
+  display:flex;
+  height:100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background: white;
+}
+
+.wave{
+  width:700px;
+  height:200px;
+  transition: ease 0.3s;
+}
+
+.change-button{
+  height:50px;
+  width:100px;
+  font-size:25px;
+  border: 2px black dashed;
+}
+
+.change-button:hover{
+  border:black 2px solid;
+}
+
+a:link { text-decoration: none; color:white; }
+
+
+a:visited { text-decoration: none; color:white; }
+
+
+a:hover { text-decoration: none; color:white; }
+
+
+a:active { text-decoration: none; color:white; }
